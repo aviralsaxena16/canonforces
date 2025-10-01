@@ -15,9 +15,14 @@ const nextConfig = {
         port: '',
         pathname: '/**', // Allow any path from your Cloudinary account
       },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+        port: '',
+        pathname: '/**', // Allow Google profile pictures
+      },
     ],
   },
-}
+};
 
-module.exports = nextConfig
-
+module.exports = nextConfig;
