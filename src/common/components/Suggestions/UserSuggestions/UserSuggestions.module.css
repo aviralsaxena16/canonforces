@@ -12,6 +12,14 @@
 .userd:hover {
   background-color: rgba(0, 0, 0, 0.02);
 }
+.avatar {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
 
 .userd img {
   border-radius: 50%;

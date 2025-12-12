@@ -48,6 +48,7 @@ export default function User() {
         height={37}
         alt={dbUser.fullname}
         src={dbUser.photoURL || "/images/user2.jpg"} // ✅ photoURL fallback
+        className={styles.avatar}
       />
       <div className={styles.user_details}>
         <h4>{dbUser.fullname}</h4>

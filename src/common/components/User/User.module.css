@@ -10,6 +10,13 @@
     border-radius: 50%;
     cursor: pointer;
 }
+.avatar {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
 
 .user_details {
     display: flex;
